@@ -1,7 +1,7 @@
 public class HotelApp {
     public static void main(String[] args) {
 
-        StandardRoom standardRoom = new StandardRoom();
+        StandardRoom standardRoom = new StandardRoom(12,"AppleWatha",2);
         LuxurySuite luxurySuite = new LuxurySuite(21,"Kumar Sanga",3);
 
         standardRoom.isWifiIncluded();
